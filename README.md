@@ -3,9 +3,13 @@ JavaScript modules.
 
 Prerequisites:
 - Wasm toolchain: `rustup target add wasm32-unknown-unknown`
-- wasm-bindgen: `cargo install wasm-bindgen-cli`
-- cargo-generate: `cargo install cargo-generate`
-- wasm-server-runner: `cargo install wasm-server-runner`
+- [wasm-bindgen]: `cargo install wasm-bindgen-cli`
+- [cargo-generate]: `cargo install cargo-generate`
+- [wasm-server-runner]: `cargo install wasm-server-runner`
+
+[wasm-bindgen]: https://github.com/rustwasm/wasm-bindgen
+[cargo-generate]: https://github.com/cargo-generate/cargo-generate
+[wasm-server-runner]: https://github.com/jakobhellermann/wasm-server-runner
 
 ## Steps
 
