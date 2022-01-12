@@ -4,9 +4,6 @@ version = "0.0.0"
 license = "MIT OR Apache-2.0"
 edition = "2021"
 
-[lib]
-crate-type = ["cdylib"]
-
 [features]
 default = ["console_error_panic_hook"]
 

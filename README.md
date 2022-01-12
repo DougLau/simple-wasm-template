@@ -5,9 +5,7 @@ Prerequisites:
 - Wasm toolchain: `rustup target add wasm32-unknown-unknown`
 - wasm-bindgen: `cargo install wasm-bindgen-cli`
 - cargo-generate: `cargo install cargo-generate`
-
-Optional:
-- basic-http-server: `cargo install basic-http-server`
+- wasm-server-runner: `cargo install wasm-server-runner`
 
 ## Steps
 
@@ -15,12 +13,6 @@ Optional:
 
 `cargo generate https://github.com/DougLau/simple-wasm-template --name {project name}`
 
-2. Build project
+2. Run project
 
-In new project directory:
-`./build.sh`
-
-3. Serve for testing
-
-Run web server:
-`basic-http-server`
+`cargo run`
